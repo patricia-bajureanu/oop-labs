@@ -47,7 +47,7 @@ int main() {
     cin.getline(nume_student, 50);
     cout << "Introduceti varsta studentului: ";
     cin >> varsta_student;
-    cin.ignore(); // Ignorăm newline-ul rămas
+    cin.ignore();
     cout << "Introduceti numele profesorului: ";
     cin.getline(nume_profesor, 50);
     cout << "Introduceti experienta profesorului (in ani): ";
